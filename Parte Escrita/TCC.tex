@@ -293,11 +293,9 @@ contribuirão para a evolução do \abnTeX.
 \begin{epigrafe}
     \vspace*{\fill}
 	\begin{flushright}
-		\textit{``Não vos amoldeis às estruturas deste mundo, \\
-		mas transformai-vos pela renovação da mente, \\
-		a fim de distinguir qual é a vontade de Deus: \\
-		o que é bom, o que Lhe é agradável, o que é perfeito.\\
-		(Bíblia Sagrada, Romanos 12, 2)}
+		\textit{``Se me atacar,\\
+		eu vou atacar.\\
+		(Inês Brasil)}
 	\end{flushright}
 \end{epigrafe}
 % ---
@@ -448,26 +446,95 @@ Lauro César Araujo
 % ----------------------------------------------------------
 % PARTE
 % ----------------------------------------------------------
-\part{Fundamentação Teórica}
 
-\chapter{Fundamentação Teórica}
-
-\lipsum[1]
-
-\lipsum[2-3]
-
-\section{Mosca Branca}
+\chapter{Mosca Branca}
 
 \lipsum[1]
 
 \lipsum[2-3]
 
-\section{Modelos de Aplicação}
-\section{Aquisição de Dados}
-\section{Visão Computacional}
+\chapter{Processsamento de Imagens e Visão Computacional}
+Nesse capítulo são apresentadas..... alguma coisa.
+Não há uma diferenciação clara entre o Processamento de Imagens e Visão Computacional, para fins práticos podemos adotar:
+\begin{itemize}
+\item \textbf{Processamentos de Imagens: } processo onde a entrada do sistema é uma imagem e a saída é um conjunto de dados. Esses conjuntos de dados podem ou não representar uma imagem.
+
+\item \textbf{Visão Computacional: } busca emular a visão humana, nesse processo a entrada também é uma imagem no entanto a saída é uma interpretação dessa imagem. A visão computacional começa geralmente com o processamento de imagens, isso por que para os processos que se propõe a Visão Computacional é necessário ajustes nas imagens a fim de melhorar a interpretação. 
+\end{itemize}
+
+Segundo Gonzales (fazer referência) o espectro entre o Processamento de Imagens e a Visão Computacional pode ser dividido em 3 partes:
+\begin{itemize}
+\item \textbf{Baixo-nível: }Operações com operações mais primitivas como redução de contraste, limiarização, redução de ruído.
+\item \textbf{Médio-nível: }Operações com operações de Segmentação (Dividir a imagem em regiões) e Classificação (Reconhecer de elementos na imagem) 
+\item \textbf{Alto-nível: }Operações com operações de cognição associados com a visão humana.
+\end{itemize}
+
+\section{Cor}
+Para imagens em preto e branco uma imagem é representada simplesmente por:
+\begin{equation}
+I = f(x,y)
+\end{equation}
+ onde $f$ é o valor do pixel ma escala de cinza na posição $(i,j)$
+ 
+ A escala de cinza é um numero natural de 0 a 255 onde, 0 é o preto com menor intensidade e 255 é o branco maior intensidade. Pode se dizer então que essa escala é uma escala de intensidade luminosa refletida pela imagem.
+
+O olho humano é sensível à radiação eletromagnética na faixa de 400 a 700 nanometros, o espectro visível.
+
+Imagem espectro
+
+Em .... o cientista Ingles Thomas Young teorizou que a retina humana tinha três tipos especiais de células (cones), uma sensível ao verde, uma sensível ao vermelho e outra sensível ao azul e combinações de valores dessas 3 cores formavam todas as outras cores do espectro visível. O cientista alemão Hermann von Helmholtz prosseguiu com os estudos que culminaram na \textbf{teoria tricromática}. A teoria tricromática explica que a existência das três cores primárias é um resultado da natureza tricromática do sistema visual humano, isso por que temos três diferentes tipos de cones e cada um responde seletivamente a diferentes porções do espectro. Posteriormente a CIE (Comissão Internacional de Iluminação) estabeleceu o modelo cromático RGB (\textbf{R}ed \textbf{B}lue \textbf{G}reen) 
+
+Imagem Standard CIE color matching functions
+
+
+A representação matemática de uma imagem colorida é dada como:
+
+\begin{equation}
+I = f(x,y)
+\end{equation}
+ onde $f$ é o valor do pixel ma escala de cinza na posição $(i,j)$
+
+ 
+\section{Processamento de Imagens}
+É muito importante destacar que a maioria das implementações de visão computacional necessita de uma boa etapa de pré-processamento para obter resultados aceitáveis (Szeliski). Dada a importancia dessa fase é necessário uma levantamento teórico preciso...
+É possível classificar os métodos de processamento de Imagens em dois tipos, aqueles que acontecem em domínio espacial e os que de domínio frequencial.
+
+\subsection{Domínio Espacial}
+Há em processamento de Imagens dois tipos de transformação e esse  
+Podemos definir as transformações desse domínio como:
+
+\begin{equation}
+g(i,j) = T(f(i,j)) 
+\end{equation}
+
+ onde $T(.)$ é uma transformação na imagem e $g(i,j)$ é a imagem que sofre essa tranformação. $T$ é uma transformação que acontece na vizinhança do pixel $(i,j)$. Essa vizinhança, também chamada de máscara, é uma região quadrada ou retângular onde os lados precisam ser ímpares.
+
+Imagem 
+
+\subsubsection{Operações Pontuais}
+ No caso mais simples, a transformação $T$ age sobre uma máscara $1x1$, ou seja, não há vizinhança além do próprio pixel .Segundo Szeliski(2010) operações pontuais são operações onde o valor de saída de cada pixel depende apenas do valor de entrada desse pixel, e em alguns casos mais alguma informação global sobre a imagem. Alguns exemplos desse tipo de transformação são:
+ \begin{itemize}
+ \item Limiarização
+ \item Ajuste de contraste
+ \item Ajuste de brilho
+ \item Equalização de Histograma
+ \end{itemize}
+ 
+ \textbf{Explicar???- Se algo a frente tiver que ser explicado então sim.
+ é preciso explicar HIstograma mas não sei aonde}
+ 
+ 
+ 
+
+
+
+
+\chapter{Redes Neurais}
+
 \section{Concepção de Aplicativos para Sistemas Android}
 
 \part{Aquisição de Dados}
+
 \chapter{Lorem ipsum dolor sit amet}
 \section{Aliquam vestibulum fringilla lorem}
 % ---
