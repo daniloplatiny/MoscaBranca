@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introdu\c c\~ao}{3}{0}{1}
+\beamer@sectionintoc {2}{Metodologia}{26}{0}{2}
+\beamer@sectionintoc {3}{Resultados}{41}{0}{3}
+\beamer@sectionintoc {4}{Conclus\~ao}{45}{0}{4}
+\beamer@sectionintoc {5}{Pr\'oximas Etapas}{46}{0}{5}

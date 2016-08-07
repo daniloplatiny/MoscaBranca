@@ -1,0 +1,396 @@
+%\documentclass[handout,xcolor=dvipsnames]{beamer}
+\documentclass[xcolor=dvipsnames]{beamer}
+
+
+\usepackage[brazil,english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{icomma}
+\usepackage{amsmath,amssymb,cancel}
+\usepackage{animate}
+\usepackage{graphicx}
+\usetheme{Dresden}
+\usecolortheme{beaver}
+\usepackage[accumulated]{beamerseminar}
+\setbeamertemplate{footline}[frame number]
+
+
+
+% title
+\title{Automatização do processo de Contagem e Classificação de Ninfas das Moscas Brancas}
+
+% author name
+\author{
+	\texttt{Attyla Fellipe Sousa Lino}\\
+	\and
+	\texttt{Danilo Platiny Costa Rocha}
+}
+
+%institute
+\institute[IFG]{
+Instituto Federal de Goiás (IFG);\\
+
+}
+
+
+% date
+\date{Goiânia, 12 de Agosto de 2016}
+
+
+%% Logo
+
+\begin{document}
+\begin{frame}
+
+  
+  \hfill	
+  \includegraphics[height=1.3cm]{ifg}
+	\hfill  
+  \titlepage
+\end{frame}
+
+%%=====================================Sumário=================================================================
+
+%\section*{Sumário}
+\begin{frame}\frametitle{Sumário}
+  \tableofcontents
+\end{frame}
+
+%%=====================================Slide 02=================================================================
+\section{Introdução}
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Introdução}
+
+\pause	
+\begin{itemize} 
+
+%% Falar sobre o problema que gerou o trabalho
+		
+		\item A Mosca Branca é uma das pragas de maior impacto econômico e social.Presente hoje em todo o globo causando prejuízos na escala de bilhões de dólares;
+\pause			
+		\item  O processo de contagem e classificação é atualmente dispendioso,porem fundamental para as pesquisas realizadas na Embrapa.  
+		
+	
+\end{itemize}
+\end{frame}
+
+\setbeamercovered{invisible}
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Objetivos}
+	\begin{itemize}	
+		
+	%Apresentar os Objetivos, solucao para o problema. 
+		\item Objetivo Geral:
+		\pause
+		\begin{itemize}
+			\item - Automatizar o processo de contagem e classificação de ninfas de mosca brancas realizadas na Embrapa.
+		\end{itemize}
+		\pause
+		\item Objetivos Específicos:
+		\begin{itemize}
+			\item - Empregar as técnicas de visão computacional para detecção e classificação de ninfas.
+			\pause
+			\item - Criar uma interface gráfica para operação.
+		\end{itemize}
+	\end{itemize}
+	
+\end{frame}
+\setbeamercovered{invisible}
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Introdução Teórica}
+	
+	\begin{itemize}	
+		
+	%Apresentar as principais informacoes sobre a mosca branca	
+		
+		\item Moscas Brancas:
+		\pause
+		\begin{itemize}
+			\pause
+			\vspace{0.2cm} 
+			\item O termo popular Mosca Branca abrange uma grande diversidade genética de insetos sugadores. Trabalharemos com a espécie Bemisia argentifolii.
+			\pause
+			\vspace{0.5cm} 
+			\item Ataca mais de 700 espécies de plantas
+			\pause
+			\vspace{0.5cm} 
+			\item Transmite vírus e também causa dados durante sua alimentação.
+			\pause
+			\vspace{0.5cm} 
+			\item Ciclo de vida bem definido com variações de características.
+		\end{itemize}
+		
+	\end{itemize}
+	 
+	
+	
+\end{frame}
+\setbeamercovered{invisible}
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Introdução Teórica}
+	
+	%Resaltar as caracteristicas fisicas	
+	%Foto 1 (mosca branca adulta)
+	\begin{figure}[h]
+		\centering % para centralizarmos a figura
+		\includegraphics[width=4cm]{MoscaAdulta.jpg} 
+		\caption{Mosca Branca. Fonte Embrapa}
+	\end{figure}
+	
+	
+	
+\end{frame}
+\setbeamercovered{invisible}
+\begin{frame}\frametitle{Introdução Teórica}
+	
+	%Mostrar as diferentes fases da mosca destacando a possibilidade de classificar
+	%Foto 1 (mosca branca adulta)
+	\begin{figure}[h]
+		\centering % para centralizarmos a figura
+		\includegraphics[width=7cm]{CiclodeVida.jpg} 
+		\caption{Ciclo de Vida. Fonte Embrapa}
+	\end{figure}	
+	
+\end{frame}
+%%%=====================================Slide 02================================================================
+
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Introdução Teórica}
+	
+	% Mostrar a diferenca entre Processamento de imagem e visao Computacional,Citar as possibilidades na parte de processamento 
+	\begin{itemize}	
+		
+		\item Processamento de Imagens:
+		\pause
+		\begin{itemize}
+			\pause
+			\vspace{0.2cm} 
+			\item  No Processamento de Imagem a Entrada é uma imagem a saída é uma outra imagem.
+			\pause
+			\vspace{0.5cm} 
+			\item O processamento acontece em domínio espacial e/ou em domínio frequencial.
+			\vspace{0.5cm} 
+			\item Imagem Como Matriz de dados. RGB e Tons de Cinza.
+		
+		\end{itemize}
+		
+	\end{itemize}
+
+\end{frame}
+\setbeamercovered{invisible}
+
+%%%=====================================Slide 02================================================================
+
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Introdução Teórica}
+	% Mostrar a diferenca entre Processamento de imagem e visao Computacional, 
+	\begin{itemize}	
+		
+		\item Visão Computacional:
+		\pause
+		\begin{itemize}
+			\pause
+			\vspace{0.2cm} 
+			\item A entrada é uma imagem no entanto a saída é uma interpretação dessa imagem.
+			\pause
+			\vspace{0.5cm} 
+			\item m
+			
+		\end{itemize}
+		
+	\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+
+\section{Metodologia}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Metodologia}
+	%Comentar as etapas do projeto
+	\begin{figure}[h]
+		\includegraphics[width=11.5cm]{cronog2.png} 
+	\end{figure}
+
+\end{frame}
+\setbeamercovered{invisible}
+
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Metodologia}
+
+	\begin{itemize}
+		\item Captura das imagens
+	\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Tratamento da Imagem}
+	% Falar sobre o que podemos fazer para melhorar a imagem 
+	
+\end{frame}
+\setbeamercovered{invisible}
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Segmentação}
+	% Parte para o attyla explicar a teorica do que fez
+	\begin{itemize}
+	\item Segmentação é achar determinados de pixels que  
+	\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Classificadores }
+\begin{itemize}
+\item Haar Cascade
+	\begin{itemize}
+		\item Como Funciona
+		\item Pq Usar
+	\end{itemize}
+\item KNN
+	\begin{itemize}
+		\item Como Funciona
+		\item Pq usar
+	\end{itemize}
+\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{OpenCV ++}
+	
+	%Oportunidade para justificar o uso da Biblioteca
+	
+	\begin{itemize}
+		\pause
+		\item Biblioteca Aberta -> Open Source Computer Vision Library
+		\pause
+		\item Muitos recursos disponíveis incluindo os classificadores
+		\pause
+		\item Vasta documentação 
+		\pause
+		\item Comunidade Ativa 
+	\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+
+
+\setbeamercovered{transparent}
+%%%=====================================Slide 02================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{C++ e GUI}
+	% Topico para justificar o C++ e discutir sobre a GUI
+	
+		\begin{itemize}
+		    \pause
+			\item  Por que o C++ ?  %Discutir o porque do C++
+			\pause
+			\item  Java x Python x C++  % Comentar a possibilidade de migracao até a conclusao do trabalho
+			\pause
+			\item Desenvolvimento em Ambiente Linux com QTCreator
+			\pause
+			\item Desenvolvimento da Interface
+			
+	\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+
+\section{Resultados}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+	\begin{itemize}
+		\item  Imagens coletadas em vista a Embrapa
+	\end{itemize}
+
+		
+\end{frame}
+
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+	\begin{itemize}
+		\item  Imagens coletadas em vista a Embrapa
+	\end{itemize}
+	
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+	
+		\begin{itemize}
+			\item  O que conseguir ate o dia da apresentacao em termos de Classificacao
+		\end{itemize}
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+
+			\begin{itemize}
+				\item  O que conseguir ate o dia da apresentacao em termos de Contagem
+			\end{itemize}
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+
+
+
+\section{Conclusão}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Conclusões Parciais}
+	
+	\begin{itemize}
+\item As imagens capturadas pelos celulares não permitiriam correta classificação;
+\item Para classificação com as técnicas adotadas é necessário uma quantidade razoável de testes positivos ;
+\item A biblioteca OpenCV fornece todo o material necessário;
+\item A contagem pode ser realizada por meio técnicas de segmentação se a imagem obedecer alguns critérios;
+
+
+
+\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\section{Próximas Etapas}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Próximas Etapas}
+	
+	\begin{itemize}
+		\item Captura e tratamento de novas imagens para treinamento;
+		\item Treinamento do algoritmo para classificação;
+		\item Desenvolvimento da Interface;	
+		\item Testes e elaboração da documentação;	
+	\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+
+%%=====================================Slide 02=================================================================
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
