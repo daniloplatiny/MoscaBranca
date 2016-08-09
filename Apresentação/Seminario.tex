@@ -16,7 +16,7 @@
 
 
 % title
-\title{Automatização do processo de Contagem e Classificação de Ninfas das Moscas Brancas}
+\title[]{Metodologia para Contagem e Classificação de Ninfas das Moscas Brancas}
 
 % author name
 \author{
@@ -66,7 +66,8 @@ Instituto Federal de Goiás (IFG);\\
 %% Falar sobre o problema que gerou o trabalho
 		
 		\item A Mosca Branca é uma das pragas de maior impacto econômico e social.Presente hoje em todo o globo causando prejuízos na escala de bilhões de dólares;
-\pause			
+\pause
+\vspace{0.5cm} 			
 		\item  O processo de contagem e classificação é atualmente dispendioso,porem fundamental para as pesquisas realizadas na Embrapa.  
 		
 	
@@ -86,6 +87,7 @@ Instituto Federal de Goiás (IFG);\\
 			\item - Automatizar o processo de contagem e classificação de ninfas de mosca brancas realizadas na Embrapa.
 		\end{itemize}
 		\pause
+		\vspace{0.5cm} 
 		\item Objetivos Específicos:
 		\begin{itemize}
 			\item - Empregar as técnicas de visão computacional para detecção e classificação de ninfas.
@@ -167,7 +169,7 @@ Instituto Federal de Goiás (IFG);\\
 		\begin{itemize}
 			\pause
 			\vspace{0.2cm} 
-			\item  No Processamento de Imagem a Entrada é uma imagem a saída é uma outra imagem.
+			\item  No Processamento de Imagem a Entrada é uma imagem a saída é outra imagem ou um conjunto de dados.
 			\pause
 			\vspace{0.5cm} 
 			\item O processamento acontece em domínio espacial e/ou em domínio frequencial.
@@ -193,17 +195,65 @@ Instituto Federal de Goiás (IFG);\\
 		\begin{itemize}
 			\pause
 			\vspace{0.2cm} 
+			\item Emular a visão humana. 
+			\pause
+			\vspace{0.5cm} 
 			\item A entrada é uma imagem no entanto a saída é uma interpretação dessa imagem.
 			\pause
 			\vspace{0.5cm} 
-			\item m
+			\item Integração com aprendizado de maquina.
 			
 		\end{itemize}
 		
 	\end{itemize}
 \end{frame}
 \setbeamercovered{invisible}
+%%%=====================================Slide 02================================================================
 
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Introdução Teórica}
+	% Mostrar a diferenca entre Processamento de imagem e visao Computacional, 
+	\begin{itemize}	
+		\item Características Haar :
+	\end{itemize}
+\begin{figure}[h]
+	\includegraphics[width=5.5cm]{haarClassifier}
+	\caption{Características Haar. (VIOLA and JONES - 2001)}
+\end{figure}
+	
+\end{frame}
+\setbeamercovered{invisible}
+
+%%%=====================================Slide 02================================================================
+
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Introdução Teórica}
+	% Mostrar a diferenca entre Processamento de imagem e visao Computacional, 
+	\begin{itemize}	
+		\item Classificação em Cascata :
+	\end{itemize}
+	\begin{figure}[h]
+		\includegraphics[width=10.5cm]{Cascata.png}
+		\caption{Características Cascata. (SOUZA, César -2014)}
+	\end{figure}
+	
+\end{frame}
+\setbeamercovered{invisible}
+\section{Metodologia}%%%=====================================Slide 02================================================================
+
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Introdução Teórica}
+	% Mostrar a diferenca entre Processamento de imagem e visao Computacional, 
+	\begin{itemize}	
+		\item k-Nearest Neighbors :
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=5.5cm]{graficoKnn.jpg}
+		\caption{Classificacao KNN. (RONG, Jing)}
+	\end{figure}
+	
+\end{frame}
+\setbeamercovered{invisible}
 \section{Metodologia}
 %%=====================================Slide 02=================================================================
 \setbeamercovered{transparent}
@@ -222,7 +272,18 @@ Instituto Federal de Goiás (IFG);\\
 
 	\begin{itemize}
 		\item Captura das imagens
+			\begin{itemize}
+			\pause
+			\vspace{0.2cm} 
+			\item Necessário resolução adequada.
+			\vspace{0.2cm} 
+			\item Ser possível classificar visualmente.
+			\vspace{0.2cm} 
+			\item Imagens com Lupa Estereoscópica.
+			 
+			\end{itemize}
 	\end{itemize}
+	
 \end{frame}
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
@@ -236,38 +297,46 @@ Instituto Federal de Goiás (IFG);\\
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Segmentação}
 	% Parte para o attyla explicar a teorica do que fez
-	\begin{itemize}
-	\item Segmentação é achar determinados de pixels que  
-	\end{itemize}
+	
 \end{frame}
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Classificadores }
-\begin{itemize}
-\item Haar Cascade
 	\begin{itemize}
-		\item Como Funciona
-		\item Pq Usar
+		\item Haar Cascade
+		\begin{itemize}
+			\pause
+			\vspace{0.2cm} 
+			\item Extrair as características Haar.
+			\vspace{0.2cm} 
+			\item Treinar com Imagens positivas e negativas.
+			\vspace{0.2cm} 
+			\item Diferentes métodos para classificar em cascata.
+			\vspace{0.5cm} 
+		\end{itemize}
+		\pause
+		\item KNN
+		\begin{itemize}
+			\pause
+			\vspace{0.2cm} 
+			\item Aplicar a característica Haar nos positivos.
+			\vspace{0.2cm} 
+			\item Diminuir Falsos Positivos.
+		\end{itemize}
 	\end{itemize}
-\item KNN
-	\begin{itemize}
-		\item Como Funciona
-		\item Pq usar
-	\end{itemize}
-\end{itemize}
 \end{frame}
 \setbeamercovered{invisible}
 
 %%%=====================================Slide 02================================================================
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{OpenCV ++}
+\begin{frame}\frametitle{OpenCV}
 	
 	%Oportunidade para justificar o uso da Biblioteca
 	
 	\begin{itemize}
 		\pause
-		\item Biblioteca Aberta -> Open Source Computer Vision Library
+		\item Biblioteca Aberta - Open Source Computer Vision Library
 		\pause
 		\item Muitos recursos disponíveis incluindo os classificadores
 		\pause
@@ -306,10 +375,11 @@ Instituto Federal de Goiás (IFG);\\
 	\begin{itemize}
 		\item  Imagens coletadas em vista a Embrapa
 	\end{itemize}
-
-		
+	%Comentar as etapas do projeto
+	\begin{figure}
+		\includegraphics[width=8.5cm]{2.jpg} 
+	\end{figure}
 \end{frame}
-
 \setbeamercovered{invisible}
 %%=====================================Slide 02=================================================================
 \setbeamercovered{transparent}
@@ -317,11 +387,26 @@ Instituto Federal de Goiás (IFG);\\
 	\begin{itemize}
 		\item  Imagens coletadas em vista a Embrapa
 	\end{itemize}
-	
-	
+	%Comentar as etapas do projeto
+	\begin{figure}
+		\includegraphics[width=8.5cm]{3.jpg} 
+	\end{figure}
 \end{frame}
-
 \setbeamercovered{invisible}
+	%%=====================================Slide 02=================================================================
+	\setbeamercovered{transparent}
+	\begin{frame}\frametitle{Resultados}
+		\begin{itemize}
+			\item  Imagens coletadas em vista a Embrapa
+		\end{itemize}
+		%Comentar as etapas do projeto
+		\begin{figure}
+			\includegraphics[width=8.5cm]{4.jpg} 
+		\end{figure}
+		
+	\end{frame}
+	
+	\setbeamercovered{invisible}
 %%=====================================Slide 02=================================================================
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Resultados}
@@ -329,6 +414,7 @@ Instituto Federal de Goiás (IFG);\\
 		\begin{itemize}
 			\item  O que conseguir ate o dia da apresentacao em termos de Classificacao
 		\end{itemize}
+		
 	
 \end{frame}
 
