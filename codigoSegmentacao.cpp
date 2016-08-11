@@ -59,9 +59,9 @@ Mat ret = bw - LaplacianoBinario;
 ret.convertTo(ret, CV_8UC3);
 bw.convertTo(bw,CV_8UC3);
 LaplacianoBinario.convertTo(LaplacianoBinario, CV_8UC3);
-    //imshow( "Laplace Filtered Image", LaplacianoBinario );
-	//imshow("Binario - Lapaciano",ret);
-    //imshow("Binary Image", bw);
+    imshow( "Laplace Filtered Image", LaplacianoBinario );
+	imshow("Binario - Lapaciano",ret);
+    imshow("Binary Image", bw);
 //src = ret;
 
 
@@ -92,7 +92,7 @@ LaplacianoBinario.convertTo(LaplacianoBinario, CV_8UC3);
     Mat markers = Mat::zeros(dist.size(), CV_32SC1);
     // Draw the foreground markers
     for (size_t i = 0; i < contours.size(); i++)
-        drawContours(markers, contours, static_cast<int>(i), Scalar::all(static_cast<int>(i)+1), -1);
+   drawContours(markers, contours, static_cast<int>(i), Scalar::all(static_cast<int>(i)+1), -1);
     // Draw the background marker
     circle(markers, Point(5,5), 3, CV_RGB(255,255,255), -1);
     imshow("Markers", markers*10000);
@@ -101,8 +101,8 @@ LaplacianoBinario.convertTo(LaplacianoBinario, CV_8UC3);
     // Perform the watershed algorithm
 //ret.convertTo(ret, CV_8UC1);
 	
-Mat water = Mat::zeros(markers.size(), src.type());
-printf("O Tipo de src é %c. \n", src.type());
+//Mat water = Mat::zeros(markers.size(), src.type());
+//printf("O Tipo de src é %c. \n", src.type());
     watershed(src, markers);
     Mat mark = Mat::zeros(markers.size(), CV_8UC1);
     markers.convertTo(mark, CV_8UC1);
@@ -137,7 +137,7 @@ int qtdSegmentos = 0;
     }
 	qtdSegmentos = colors.size();
     // Visualize the final image
-    printf("Temos %d Bolinhas. \n",qtdSegmentos); 
+    printf("Temos %d Ninfas de Bemisia. \n",qtdSegmentos); 
     imshow("Final Result", dst);
 
     waitKey(0);

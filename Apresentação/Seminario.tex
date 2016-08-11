@@ -8,27 +8,47 @@
 \usepackage{amsmath,amssymb,cancel}
 \usepackage{animate}
 \usepackage{graphicx}
-\usetheme{Dresden}
-\usecolortheme{beaver}
+%\usetheme{PaloAlto}
+%\usecolortheme{beaver}
 \usepackage[accumulated]{beamerseminar}
-\setbeamertemplate{footline}[frame number]
+%\setbeamertemplate{footline}[frame number]
+\usepackage{subfigure}
+\usepackage{beamerthemesplit}
+\usepackage{graphics,epsfig, subfigure}
+\usepackage[justification=centering]{caption}
+\usepackage{morefloats}
+\usepackage{ragged2e}
 
 
+\definecolor{kugreen}{RGB}{150,93,131}
+\definecolor{kugreenlys}{RGB}{132,158,139}
+\definecolor{kugreenlyslys}{RGB}{173,190,177}
+\definecolor{kugreenlyslyslys}{RGB}{214,223,216}
+\setbeamercovered{transparent}
+\mode<presentation>
+{  \usetheme{PaloAlto}
+  \usecolortheme[named=kugreen]{structure}
+  \useinnertheme{circles}
+  \usefonttheme[onlymath]{serif}
+  \setbeamercovered{transparent}
+  \setbeamertemplate{blocks}[rounded][shadow=true]
+}
+%\setbeamertemplate{background}{\includegraphics[width=1\textwidth]{natfak_baggrund.pdf}}
+%\logo{\includegraphics[width=1cm]{logoifg.png}}
 
 % title
 \title[]{Metodologia para Contagem e Classificação de Ninfas das Moscas Brancas}
 
 % author name
 \author{
-	\texttt{Attyla Fellipe Sousa Lino}\\
-	\and
-	\texttt{Danilo Platiny Costa Rocha}
 }
 
 %institute
-\institute[IFG]{
-Instituto Federal de Goiás (IFG);\\
-
+\institute[IFG]{\large Áttyla Fellipe Sousa Lino\\
+\large Danilo Platiny Costa Rocha \\
+\vspace{0.4cm}
+\small Instituto Federal de Goiás (IFG);\\
+\normalsize
 }
 
 
@@ -60,15 +80,15 @@ Instituto Federal de Goiás (IFG);\\
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Introdução}
 
-\pause	
+ 	
 \begin{itemize} 
 
 %% Falar sobre o problema que gerou o trabalho
 		
-		\item A Mosca Branca é uma das pragas de maior impacto econômico e social.Presente hoje em todo o globo causando prejuízos na escala de bilhões de dólares;
-\pause
+		\item A Mosca Branca é uma das pragas de maior impacto econômico e social. Presente hoje em todo o globo causando prejuízos na escala de bilhões de dólares;
+ 
 \vspace{0.5cm} 			
-		\item  O processo de contagem e classificação é atualmente dispendioso,porem fundamental para as pesquisas realizadas na Embrapa.  
+		\item  O processo de contagem e classificação é atualmente dispendioso, porém fundamental para as pesquisas realizadas na Embrapa.  
 		
 	
 \end{itemize}
@@ -82,43 +102,47 @@ Instituto Federal de Goiás (IFG);\\
 		
 	%Apresentar os Objetivos, solucao para o problema. 
 		\item Objetivo Geral:
-		\pause
+		 
 		\begin{itemize}
-			\item - Automatizar o processo de contagem e classificação de ninfas de mosca brancas realizadas na Embrapa.
+			\item Automatizar o processo de contagem e classificação de ninfas de mosca brancas realizadas na Embrapa.
 		\end{itemize}
-		\pause
+		 
 		\vspace{0.5cm} 
 		\item Objetivos Específicos:
 		\begin{itemize}
-			\item - Empregar as técnicas de visão computacional para detecção e classificação de ninfas.
-			\pause
-			\item - Criar uma interface gráfica para operação.
+			\item  Empregar as técnicas de visão computacional para detecção e classificação de ninfas.
+			 
+			\item  Criar uma interface gráfica para operação para facilitar as pesquisas na Embrapa.
+			 
+			\item Iniciar estudo de Visão Computacional aplicado a Controle de Pragas.
+			
 		\end{itemize}
 	\end{itemize}
 	
 \end{frame}
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
+\subsection{Mosca Branca}
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Introdução Teórica}
+\begin{frame}\frametitle{A Mosca Branca}
 	
 	\begin{itemize}	
 		
 	%Apresentar as principais informacoes sobre a mosca branca	
 		
 		\item Moscas Brancas:
-		\pause
+		
 		\begin{itemize}
-			\pause
+			 
 			\vspace{0.2cm} 
 			\item O termo popular Mosca Branca abrange uma grande diversidade genética de insetos sugadores. Trabalharemos com a espécie Bemisia argentifolii.
-			\pause
+			 
 			\vspace{0.5cm} 
 			\item Ataca mais de 700 espécies de plantas
-			\pause
+			 
 			\vspace{0.5cm} 
 			\item Transmite vírus e também causa dados durante sua alimentação.
-			\pause
+			 
 			\vspace{0.5cm} 
 			\item Ciclo de vida bem definido com variações de características.
 		\end{itemize}
@@ -131,7 +155,7 @@ Instituto Federal de Goiás (IFG);\\
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Introdução Teórica}
+\begin{frame}\frametitle{A Mosca Branca}
 	
 	%Resaltar as caracteristicas fisicas	
 	%Foto 1 (mosca branca adulta)
@@ -145,7 +169,7 @@ Instituto Federal de Goiás (IFG);\\
 	
 \end{frame}
 \setbeamercovered{invisible}
-\begin{frame}\frametitle{Introdução Teórica}
+\begin{frame}\frametitle{Ciclo de Vida}
 	
 	%Mostrar as diferentes fases da mosca destacando a possibilidade de classificar
 	%Foto 1 (mosca branca adulta)
@@ -157,62 +181,66 @@ Instituto Federal de Goiás (IFG);\\
 	
 \end{frame}
 %%%=====================================Slide 02================================================================
-
+\subsection{Processamento de Imagens}
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Introdução Teórica}
+\begin{frame}\frametitle{Processamento de Imagens}
 	
 	% Mostrar a diferenca entre Processamento de imagem e visao Computacional,Citar as possibilidades na parte de processamento 
-	\begin{itemize}	
-		
-		\item Processamento de Imagens:
-		\pause
 		\begin{itemize}
-			\pause
+			 
 			\vspace{0.2cm} 
 			\item  No Processamento de Imagem a Entrada é uma imagem a saída é outra imagem ou um conjunto de dados.
-			\pause
-			\vspace{0.5cm} 
-			\item O processamento acontece em domínio espacial e/ou em domínio frequencial.
-			\vspace{0.5cm} 
-			\item Imagem Como Matriz de dados. RGB e Tons de Cinza.
-		
+			 
+			\item Imagem Como Matriz de dados. RGB, Binária e Tons de Cinza.
+			 
+			\item Algumas Operações: Limiarização, Binarização, Filtragem, Transformação %====Colocar Algumas operações
+				
 		\end{itemize}
-		
-	\end{itemize}
-
-\end{frame}
+		\tiny 
+	\begin{figure}[h!]
+    	\centering
+    	\subfigure {\includegraphics[scale = 0.2]{binaria.png}}
+    	\hspace{1cm}
+        \subfigure {\includegraphics[scale = 0.2]{dilatada.png}}
+		\hspace{1cm}       
+        \subfigure {\includegraphics[scale = 0.2]{distancial.png}}
+		\hspace{1cm}        
+        \subfigure {\includegraphics[scale = 0.2]{connectedcomponentes.png}}
+        \caption{(a)- (b)- (c)- (d)- }
+	\end{figure}
+	
+	\end{frame}
 \setbeamercovered{invisible}
 
 %%%=====================================Slide 02================================================================
-
+\subsection{Visão Computacional}
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Introdução Teórica}
+\begin{frame}\frametitle{Visão Computacional}
 	% Mostrar a diferenca entre Processamento de imagem e visao Computacional, 
-	\begin{itemize}	
-		
-		\item Visão Computacional:
-		\pause
+	
 		\begin{itemize}
-			\pause
+			 
 			\vspace{0.2cm} 
 			\item Emular a visão humana. 
-			\pause
+			 
 			\vspace{0.5cm} 
 			\item A entrada é uma imagem no entanto a saída é uma interpretação dessa imagem.
-			\pause
+			 
 			\vspace{0.5cm} 
-			\item Integração com aprendizado de maquina.
+			\item Integrar com aprendizado de maquina.
+			
+			\vspace{0.5cm} 
+			\item Algumas operações: Classificação, Reconheciemnto de padrões.
 			
 		\end{itemize}
 		
-	\end{itemize}
 \end{frame}
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
 
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Introdução Teórica}
-	% Mostrar a diferenca entre Processamento de imagem e visao Computacional, 
+\begin{frame}\frametitle{Classificação}
+	
 	\begin{itemize}	
 		\item Características Haar :
 	\end{itemize}
@@ -227,8 +255,8 @@ Instituto Federal de Goiás (IFG);\\
 %%%=====================================Slide 02================================================================
 
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Introdução Teórica}
-	% Mostrar a diferenca entre Processamento de imagem e visao Computacional, 
+\begin{frame}\frametitle{Classificação}
+	
 	\begin{itemize}	
 		\item Classificação em Cascata :
 	\end{itemize}
@@ -239,11 +267,11 @@ Instituto Federal de Goiás (IFG);\\
 	
 \end{frame}
 \setbeamercovered{invisible}
-\section{Metodologia}%%%=====================================Slide 02================================================================
+%%%=====================================Slide 02=================================================
 
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Introdução Teórica}
-	% Mostrar a diferenca entre Processamento de imagem e visao Computacional, 
+\begin{frame}\frametitle{Classificação}
+	
 	\begin{itemize}	
 		\item k-Nearest Neighbors :
 	\end{itemize}
@@ -254,10 +282,11 @@ Instituto Federal de Goiás (IFG);\\
 	
 \end{frame}
 \setbeamercovered{invisible}
-\section{Metodologia}
+
 %%=====================================Slide 02=================================================================
+\section{Metodologia}
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Metodologia}
+\begin{frame}\frametitle{Etapas do Projeto}
 	%Comentar as etapas do projeto
 	\begin{figure}[h]
 		\includegraphics[width=11.5cm]{cronog2.png} 
@@ -273,7 +302,7 @@ Instituto Federal de Goiás (IFG);\\
 	\begin{itemize}
 		\item Captura das imagens
 			\begin{itemize}
-			\pause
+			 
 			\vspace{0.2cm} 
 			\item Necessário resolução adequada.
 			\vspace{0.2cm} 
@@ -287,26 +316,67 @@ Instituto Federal de Goiás (IFG);\\
 \end{frame}
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
+\subsection{Tratamento da Imagem}
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Tratamento da Imagem}
 	% Falar sobre o que podemos fazer para melhorar a imagem 
+	\begin{itemize}
+	\item Limiarização usada Threshold de Otsu: Maximiza a variação intraclasse.
+
+	\item Laplaciano: Derivada segunda .
+		
+	\item Transformada Distância.
+	\begin{equation}
+	colocar a equacao
+	\end{equation}
+	\end{itemize}	
 	
 \end{frame}
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
 \setbeamercovered{transparent}
-\begin{frame}\frametitle{Segmentação}
-	% Parte para o attyla explicar a teorica do que fez
+\begin{frame}\frametitle{Tratamento da Imagem}
+	% Falar sobre o que podemos fazer para melhorar a imagem 
+	\begin{itemize}
+	\item Limiarização usada Threshold de Otsu.
+	\begin{equation}
+	colocar a equacao
+	\end{equation}
+	\item Laplaciano.
+	\begin{equation}
+	colocar a equacao
+	\end{equation}	
+	\item Transformada Distância.
+	\begin{equation}
+	colocar a equacao
+	\end{equation}
+	\end{itemize}	
 	
 \end{frame}
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
+\subsection{Segmentação}
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Segmentação}
+	% Parte para o attyla explicar a teorica do que fez
+	\begin{itemize}
+	\item O método escolhido para Segmentação foi o algoritmo Watershed orientado por marcadores.
+	\item Watershed: 
+	 \begin{equation}
+	colocar a equacao
+	\end{equation}
+	\item 
+	\end{itemize}
+\end{frame}
+\setbeamercovered{invisible}
+%%%=====================================Slide 02================================================================
+\subsection{Classificação}
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Classificadores }
 	\begin{itemize}
 		\item Haar Cascade
 		\begin{itemize}
-			\pause
+			 
 			\vspace{0.2cm} 
 			\item Extrair as características Haar.
 			\vspace{0.2cm} 
@@ -315,10 +385,10 @@ Instituto Federal de Goiás (IFG);\\
 			\item Diferentes métodos para classificar em cascata.
 			\vspace{0.5cm} 
 		\end{itemize}
-		\pause
+		 
 		\item KNN
 		\begin{itemize}
-			\pause
+			 
 			\vspace{0.2cm} 
 			\item Aplicar a característica Haar nos positivos.
 			\vspace{0.2cm} 
@@ -329,19 +399,20 @@ Instituto Federal de Goiás (IFG);\\
 \setbeamercovered{invisible}
 
 %%%=====================================Slide 02================================================================
+\subsection{Biblioteca Utilizada}
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{OpenCV}
 	
 	%Oportunidade para justificar o uso da Biblioteca
 	
 	\begin{itemize}
-		\pause
+		 
 		\item Biblioteca Aberta - Open Source Computer Vision Library
-		\pause
+		 
 		\item Muitos recursos disponíveis incluindo os classificadores
-		\pause
+		 
 		\item Vasta documentação 
-		\pause
+		 
 		\item Comunidade Ativa 
 	\end{itemize}
 \end{frame}
@@ -355,13 +426,13 @@ Instituto Federal de Goiás (IFG);\\
 	% Topico para justificar o C++ e discutir sobre a GUI
 	
 		\begin{itemize}
-		    \pause
+		     
 			\item  Por que o C++ ?  %Discutir o porque do C++
-			\pause
+			 
 			\item  Java x Python x C++  % Comentar a possibilidade de migracao até a conclusao do trabalho
-			\pause
+			 
 			\item Desenvolvimento em Ambiente Linux com QTCreator
-			\pause
+			 
 			\item Desenvolvimento da Interface
 			
 	\end{itemize}

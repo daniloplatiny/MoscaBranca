@@ -6,71 +6,77 @@
 \headcommand {\sectionentry {1}{Introdu\c c\~ao}{3}{Introdu\c c\~ao}{0}}
 \headcommand {\beamer@sectionpages {1}{2}}
 \headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\slideentry {1}{0}{3}{3/5}{}{0}}
-\headcommand {\beamer@framepages {3}{5}}
-\headcommand {\slideentry {1}{0}{4}{6/9}{}{0}}
-\headcommand {\beamer@framepages {6}{9}}
-\headcommand {\slideentry {1}{0}{5}{10/15}{}{0}}
-\headcommand {\beamer@framepages {10}{15}}
-\headcommand {\slideentry {1}{0}{6}{16/16}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {1}{0}{4}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{5}{Mosca Branca}}\headcommand {\beamer@subsectionpages {3}{4}}
+\headcommand {\slideentry {1}{1}{1}{5/5}{Mosca Branca}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{1}{2}{6/6}{Mosca Branca}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{1}{3}{7/7}{Mosca Branca}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{8}{Processamento de Imagens}}\headcommand {\beamer@subsectionpages {5}{7}}
+\headcommand {\slideentry {1}{2}{1}{8/8}{Processamento de Imagens}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{9}{Vis\~ao Computacional}}\headcommand {\beamer@subsectionpages {8}{8}}
+\headcommand {\slideentry {1}{3}{1}{9/9}{Vis\~ao Computacional}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {1}{3}{2}{10/10}{Vis\~ao Computacional}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{3}{3}{11/11}{Vis\~ao Computacional}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {1}{3}{4}{12/12}{Vis\~ao Computacional}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\sectionentry {2}{Metodologia}{13}{Metodologia}{0}}
+\headcommand {\beamer@sectionpages {3}{12}}
+\headcommand {\beamer@subsectionpages {9}{12}}
+\headcommand {\slideentry {2}{0}{5}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{0}{6}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{15}{Tratamento da Imagem}}\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\slideentry {2}{1}{1}{15/15}{Tratamento da Imagem}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {2}{1}{2}{16/16}{Tratamento da Imagem}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {1}{0}{7}{17/17}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{17}{Segmenta\c c\~ao}}\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\slideentry {2}{2}{1}{17/17}{Segmenta\c c\~ao}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {1}{0}{8}{18/21}{}{0}}
-\headcommand {\beamer@framepages {18}{21}}
-\headcommand {\slideentry {1}{0}{9}{22/26}{}{0}}
-\headcommand {\beamer@framepages {22}{26}}
-\headcommand {\slideentry {1}{0}{10}{27/27}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{18}{Classifica\c c\~ao}}\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {2}{3}{1}{18/18}{Classifica\c c\~ao}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{19}{Biblioteca Utilizada}}\headcommand {\beamer@subsectionpages {18}{18}}
+\headcommand {\slideentry {2}{4}{1}{19/19}{Biblioteca Utilizada}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{4}{2}{20/20}{Biblioteca Utilizada}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\sectionentry {3}{Resultados}{21}{Resultados}{0}}
+\headcommand {\beamer@sectionpages {13}{20}}
+\headcommand {\beamer@subsectionpages {19}{20}}
+\headcommand {\slideentry {3}{0}{3}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {3}{0}{4}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {3}{0}{5}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {3}{0}{6}{24/24}{}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {3}{0}{7}{25/25}{}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\sectionentry {4}{Conclus\~ao}{26}{Conclus\~ao}{0}}
+\headcommand {\beamer@sectionpages {21}{25}}
+\headcommand {\beamer@subsectionpages {21}{25}}
+\headcommand {\slideentry {4}{0}{8}{26/26}{}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\sectionentry {5}{Pr\'oximas Etapas}{27}{Pr\'oximas Etapas}{0}}
+\headcommand {\beamer@sectionpages {26}{26}}
+\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\slideentry {5}{0}{9}{27/27}{}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {1}{0}{11}{28/28}{}{0}}
-\headcommand {\beamer@framepages {28}{28}}
-\headcommand {\sectionentry {2}{Metodologia}{29}{Metodologia}{0}}
-\headcommand {\beamer@sectionpages {3}{28}}
-\headcommand {\beamer@subsectionpages {3}{28}}
-\headcommand {\slideentry {2}{0}{12}{29/29}{}{0}}
-\headcommand {\beamer@framepages {29}{29}}
-\headcommand {\sectionentry {3}{Metodologia}{30}{Metodologia}{0}}
-\headcommand {\beamer@sectionpages {29}{29}}
-\headcommand {\beamer@subsectionpages {29}{29}}
-\headcommand {\slideentry {3}{0}{13}{30/30}{}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {3}{0}{14}{31/32}{}{0}}
-\headcommand {\beamer@framepages {31}{32}}
-\headcommand {\slideentry {3}{0}{15}{33/33}{}{0}}
-\headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {3}{0}{16}{34/34}{}{0}}
-\headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {3}{0}{17}{35/38}{}{0}}
-\headcommand {\beamer@framepages {35}{38}}
-\headcommand {\slideentry {3}{0}{18}{39/43}{}{0}}
-\headcommand {\beamer@framepages {39}{43}}
-\headcommand {\slideentry {3}{0}{19}{44/48}{}{0}}
-\headcommand {\beamer@framepages {44}{48}}
-\headcommand {\sectionentry {4}{Resultados}{49}{Resultados}{0}}
-\headcommand {\beamer@sectionpages {30}{48}}
-\headcommand {\beamer@subsectionpages {30}{48}}
-\headcommand {\slideentry {4}{0}{20}{49/49}{}{0}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {4}{0}{21}{50/50}{}{0}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {4}{0}{22}{51/51}{}{0}}
-\headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {4}{0}{23}{52/52}{}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {4}{0}{24}{53/53}{}{0}}
-\headcommand {\beamer@framepages {53}{53}}
-\headcommand {\sectionentry {5}{Conclus\~ao}{54}{Conclus\~ao}{0}}
-\headcommand {\beamer@sectionpages {49}{53}}
-\headcommand {\beamer@subsectionpages {49}{53}}
-\headcommand {\slideentry {5}{0}{25}{54/54}{}{0}}
-\headcommand {\beamer@framepages {54}{54}}
-\headcommand {\sectionentry {6}{Pr\'oximas Etapas}{55}{Pr\'oximas Etapas}{0}}
-\headcommand {\beamer@sectionpages {54}{54}}
-\headcommand {\beamer@subsectionpages {54}{54}}
-\headcommand {\slideentry {6}{0}{26}{55/55}{}{0}}
-\headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@partpages {1}{55}}
-\headcommand {\beamer@subsectionpages {55}{55}}
-\headcommand {\beamer@sectionpages {55}{55}}
-\headcommand {\beamer@documentpages {55}}
-\headcommand {\def \inserttotalframenumber {26}}
+\headcommand {\beamer@partpages {1}{27}}
+\headcommand {\beamer@subsectionpages {27}{27}}
+\headcommand {\beamer@sectionpages {27}{27}}
+\headcommand {\beamer@documentpages {27}}
+\headcommand {\def \inserttotalframenumber {27}}

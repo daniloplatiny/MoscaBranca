@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.7.12)  9 AUG 2016 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.7.12)  10 AUG 2016 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -825,50 +825,165 @@ Package: animfp 2009/07/23 fixed point addition for animate.sty
 \@anim@begin=\toks47
 \@anim@end=\toks48
 \@anim@@resizeflags=\count184
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeDresden
-.sty
-Package: beamerthemeDresden 2010/06/17  (rcs-revision d02a7cf4d8ae)
-
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthememi
-niframes.sty
-Package: beamerouterthememiniframes 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemewh
-ale.sty
-Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemebe
-aver.sty
-Package: beamercolorthemebeaver 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/emulation/beamerseminar.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/emulation/beamerseminar.sty
 Package: beamerseminar 2010/06/17  (rcs-revision d02a7cf4d8ae)
 \beamerseminar@overlay=\count185
 \semin=\dimen195
 \semcm=\dimen196
+) (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip60
+\subfigcapskip=\skip61
+\subfigcaptopadj=\dimen197
+\subfigbottomskip=\skip62
+\subfigcapmargin=\dimen198
+\subfiglabelskip=\skip63
+\c@subfigure=\count186
+\c@lofdepth=\count187
+\c@subtable=\count188
+\c@lotdepth=\count189
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip64
+\subfig@bottom=\skip65
 )
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beam
+erthemesplit.sty
+Package: beamerthemesplit 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 26.
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemewh
+ale.sty
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesp
+lit.sty
+Package: beamerouterthemesplit 2012/10/16  (rcs-revision 51a8c72084af)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemestru
+cturebold.sty
+Package: beamerfontthemestructurebold 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen199
+\epsfysize=\dimen200
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(./Seminario.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen201
+\captionmargin@=\dimen202
+\captionwidth=\dimen203
+\caption@tempdima=\dimen204
+\caption@indent=\dimen205
+\caption@parindent=\dimen206
+\caption@hangindent=\dimen207
+)
+\c@ContinuedFloat=\count190
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: subfigure package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
+)
+Package morefloats Info: Maximum number of possible floats asked for: 36.
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+(morefloats)              on input line 171.
+\bx@S=\insert233
+\bx@T=\insert232
+\bx@U=\insert231
+\bx@V=\insert230
+\bx@W=\insert229
+\bx@X=\insert228
+\bx@Y=\insert227
+\bx@Z=\insert226
+\bx@AA=\insert225
+\bx@AB=\insert224
+\bx@AC=\insert223
+\bx@AD=\insert222
+\bx@AE=\insert221
+\bx@AF=\insert220
+\bx@AG=\insert219
+\bx@AH=\insert218
+\bx@AI=\insert217
+\bx@AJ=\insert216
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip66
+\RaggedLeftLeftskip=\skip67
+\RaggedRightLeftskip=\skip68
+\CenteringRightskip=\skip69
+\RaggedLeftRightskip=\skip70
+\RaggedRightRightskip=\skip71
+\CenteringParfillskip=\skip72
+\RaggedLeftParfillskip=\skip73
+\RaggedRightParfillskip=\skip74
+\JustifyingParfillskip=\skip75
+\CenteringParindent=\skip76
+\RaggedLeftParindent=\skip77
+\RaggedRightParindent=\skip78
+\JustifyingParindent=\skip79
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/theme/beamerthemePaloAlt
+o.sty
+Package: beamerthemePaloAlto 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesi
+debar.sty
+Package: beamerouterthemesidebar 2010/06/17  (rcs-revision d02a7cf4d8ae)
+\beamer@sidebarwidth=\dimen208
+\beamer@headheight=\dimen209
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemero
+unded.sty
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemeor
+chid.sty
+Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemest
+ructure.sty
+Package: beamercolorthemestructure 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemeci
+rcles.sty
+Package: beamerinnerthemecircles 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemeseri
+f.sty
+Package: beamerfontthemeserif 2010/06/17  (rcs-revision d02a7cf4d8ae)
+) (./Seminario.aux)
 \openout1 = `Seminario.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -878,14 +993,14 @@ LaTeX Font Info:    ... okay on input line 41.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* h-part:(L,W,R)=(59.22636pt, 290.74263pt, 14.22636pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=307.28987pt
+* \textwidth=290.74263pt
 * \textheight=244.6939pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-13.04362pt
+* \evensidemargin=-13.04362pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -921,7 +1036,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -929,68 +1044,16 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count186
+\c@section@level=\count191
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (./Seminario.out) (./Seminario.out)
 \@outlinefile=\write5
 \openout5 = `Seminario.out'.
 
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 41.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 41.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 41.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 41.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 41.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 41.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 41.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-1.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-41.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1016,17 +1079,40 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 41.
+LaTeX Info: Redefining \includegraphics on input line 61.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: Incompatible package detected (regarding \caption).
+(caption)             \caption = macro:->\ifx \@captype \@undefined \@latex@err
+or {\noexpand \caption outside figure or table}\@ehd \expandafter \@gobble \els
+e \refstepcounter \@captype \expandafter \@firstofone \fi {\@dblarg {\@caption 
+\@captype }}.
+
+
+Package caption Warning: \caption will not be redefined since it's already
+(caption)                redefined by a document class or package which is
+(caption)                unknown to the caption package.
+See the caption package documentation for explanation.
+
+Package caption Info: End \AtBeginDocument code.
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 61.
  (./Seminario.nav)
-<ifg.jpg, id=43, 160.9212pt x 218.2554pt>
+<ifg.jpg, id=62, 160.9212pt x 218.2554pt>
 File: ifg.jpg Graphic file (type jpg)
  <use ifg.jpg>
-Package pdftex.def Info: ifg.jpg used on input line 49.
+Package pdftex.def Info: ifg.jpg used on input line 69.
 (pdftex.def)             Requested size: 27.2703pt x 36.98866pt.
+
+Overfull \vbox (0.18329pt too high) detected at line 69
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <4> not available
+(Font)              size <5> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 49.
+(Font)              size <5> substituted on input line 69.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1034,199 +1120,178 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (./Seminario.toc) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 75.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 75.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 75.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 95.
 
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
+LaTeX Font Info:    No file OMScmss.fd. on input line 95.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 95.
+
 [3
 
 ] [4
 
 ] [5
 
-] [6
-
-] [7
-
-] [8
-
-] [9
-
-] [10
-
-] [11
-
-] [12
-
-] [13
-
-] [14
-
-] [15
-
-]
-<MoscaAdulta.jpg, id=535, 72.27pt x 106.09094pt>
+] <MoscaAdulta.jpg, id=297, 72.27pt x 106.09094pt>
 File: MoscaAdulta.jpg Graphic file (type jpg)
- <use MoscaAdulta.jpg>
-Package pdftex.def Info: MoscaAdulta.jpg used on input line 146.
+
+<use MoscaAdulta.jpg>
+Package pdftex.def Info: MoscaAdulta.jpg used on input line 170.
 (pdftex.def)             Requested size: 113.81102pt x 167.08113pt.
- [16
+ [6
 
- <./MoscaAdulta.jpg>] <CiclodeVida.jpg, id=568, 496.254pt x 452.892pt>
+ <./MoscaAdulta.jpg>]
+<CiclodeVida.jpg, id=336, 496.254pt x 452.892pt>
 File: CiclodeVida.jpg Graphic file (type jpg)
-
-<use CiclodeVida.jpg>
-Package pdftex.def Info: CiclodeVida.jpg used on input line 158.
+ <use CiclodeVida.jpg>
+Package pdftex.def Info: CiclodeVida.jpg used on input line 182.
 (pdftex.def)             Requested size: 199.16928pt x 181.76172pt.
 
-Overfull \vbox (14.23553pt too high) detected at line 158
+Overfull \vbox (12.86572pt too high) detected at line 182
  []
 
-[17
+[7
 
- <./CiclodeVida.jpg>] [18
+ <./CiclodeVida.jpg>] <binaria.png, id=377, 176.66pt x 147.55125pt>
+File: binaria.png Graphic file (type png)
+
+<use binaria.png>
+Package pdftex.def Info: binaria.png used on input line 212.
+(pdftex.def)             Requested size: 35.33136pt x 29.50972pt.
+ <dilatada.png, id=379, 189.70876pt x 154.5775pt>
+File: dilatada.png Graphic file (type png)
+
+<use dilatada.png>
+Package pdftex.def Info: dilatada.png used on input line 212.
+(pdftex.def)             Requested size: 37.94107pt x 30.91495pt.
+ <distancial.png, id=380, 190.7125pt x 170.6375pt>
+File: distancial.png Graphic file (type png)
+
+<use distancial.png>
+Package pdftex.def Info: distancial.png used on input line 212.
+(pdftex.def)             Requested size: 38.14182pt x 34.12689pt.
+
+<connectedcomponentes.png, id=381, 177.66376pt x 146.5475pt>
+File: connectedcomponentes.png Graphic file (type png)
+
+<use connectedcomponentes.png>
+Package pdftex.def Info: connectedcomponentes.png used on input line 212.
+(pdftex.def)             Requested size: 35.53212pt x 29.30898pt.
+ [8
+
+ <./binaria.png> <./dilatada.png> <./distancial.png> <./connectedcomponentes.pn
+g>] [9
+
+]
+<haarClassifier.jpg, id=463, 268.00125pt x 162.6075pt>
+File: haarClassifier.jpg Graphic file (type jpg)
+
+<use haarClassifier.jpg>
+Package pdftex.def Info: haarClassifier.jpg used on input line 249.
+(pdftex.def)             Requested size: 156.49014pt x 94.94759pt.
+ [10
+
+ <./haarClassifier.jpg>]
+<Cascata.png, id=504, 469.755pt x 159.59625pt>
+File: Cascata.png Graphic file (type png)
+ <use Cascata.png>
+Package pdftex.def Info: Cascata.png used on input line 265.
+(pdftex.def)             Requested size: 298.75394pt x 101.49834pt.
+
+Overfull \hbox (8.0113pt too wide) in paragraph at lines 265--265
+ [] 
+ []
+
+[11
+
+ <./Cascata.png>] <graficoKnn.jpg, id=543, 144.54pt x 152.4897pt>
+File: graficoKnn.jpg Graphic file (type jpg)
+
+<use graficoKnn.jpg>
+Package pdftex.def Info: graficoKnn.jpg used on input line 280.
+(pdftex.def)             Requested size: 156.49014pt x 165.10524pt.
+
+Overfull \vbox (17.49397pt too high) detected at line 280
+ []
+
+[12
+
+ <./graficoKnn.jpg>] <cronog2.png, id=583, 752.8125pt x 283.81032pt>
+File: cronog2.png Graphic file (type png)
+
+<use cronog2.png>
+Package pdftex.def Info: cronog2.png used on input line 292.
+(pdftex.def)             Requested size: 327.20668pt x 123.3612pt.
+
+Overfull \hbox (36.46405pt too wide) in paragraph at lines 292--292
+ [] 
+ []
+
+[13
+
+ <./cronog2.png>] [14
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 335.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 335.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [15
+
+] [16
+
+] [17
+
+]
+[18
 
 ] [19
 
 ] [20
 
-] [21
+] <2.jpg, id=898, 4143.48pt x 2330.7075pt>
+File: 2.jpg Graphic file (type jpg)
+ <use 2.jpg>
+Package pdftex.def Info: 2.jpg used on input line 454.
+(pdftex.def)             Requested size: 241.84842pt x 136.0311pt.
+ [21
 
-] [22
+ <./2.jpg>] <3.jpg, id=939, 4143.48pt x 2330.7075pt>
+File: 3.jpg Graphic file (type jpg)
+ <use 3.jpg>
+Package pdftex.def Info: 3.jpg used on input line 466.
+(pdftex.def)             Requested size: 241.84842pt x 136.0311pt.
+ [22
 
-] [23
+ <./3.jpg>]
+<4.jpg, id=979, 1541.76pt x 1156.32pt>
+File: 4.jpg Graphic file (type jpg)
+ <use 4.jpg>
+Package pdftex.def Info: 4.jpg used on input line 479.
+(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
 
-] [24
+Overfull \vbox (3.66904pt too high) detected at line 479
+ []
+
+[23
+
+ <./4.jpg>] [24
 
 ] [25
 
 ] [26
 
 ]
-<haarClassifier.jpg, id=884, 268.00125pt x 162.6075pt>
-File: haarClassifier.jpg Graphic file (type jpg)
-
-<use haarClassifier.jpg>
-Package pdftex.def Info: haarClassifier.jpg used on input line 224.
-(pdftex.def)             Requested size: 156.49014pt x 94.94759pt.
+Package atenddvi Info: Last page = 27.
  [27
-
- <./haarClassifier.jpg>]
-<Cascata.png, id=915, 469.755pt x 159.59625pt>
-File: Cascata.png Graphic file (type png)
- <use Cascata.png>
-Package pdftex.def Info: Cascata.png used on input line 240.
-(pdftex.def)             Requested size: 298.75394pt x 101.49834pt.
- [28
-
- <./Cascata.png>] <graficoKnn.jpg, id=946, 144.54pt x 152.4897pt>
-File: graficoKnn.jpg Graphic file (type jpg)
- <use graficoKnn.jpg>
-Package pdftex.def Info: graficoKnn.jpg used on input line 255.
-(pdftex.def)             Requested size: 156.49014pt x 165.10524pt.
-
-Overfull \vbox (18.86378pt too high) detected at line 255
- []
-
-[29
-
- <./graficoKnn.jpg>] <cronog2.png, id=977, 752.8125pt x 283.81032pt>
-File: cronog2.png Graphic file (type png)
-
-<use cronog2.png>
-Package pdftex.def Info: cronog2.png used on input line 266.
-(pdftex.def)             Requested size: 327.20668pt x 123.3612pt.
-
-Overfull \hbox (19.91681pt too wide) in paragraph at lines 266--266
- [] 
- []
-
-[30
-
- <./cronog2.png>] [31
-
-] [32
-
-] [33
-
-] [34
-
-] [35
-
-] [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-] [41
-
-]
-[42
-
-] [43
-
-] [44
-
-] [45
-
-] [46
-
-] [47
-
-] [48
-
-] <2.jpg, id=1577, 4143.48pt x 2330.7075pt>
-File: 2.jpg Graphic file (type jpg)
-
-<use 2.jpg>
-Package pdftex.def Info: 2.jpg used on input line 382.
-(pdftex.def)             Requested size: 241.84842pt x 136.0311pt.
- [49
-
- <./2.jpg>] <3.jpg, id=1611, 4143.48pt x 2330.7075pt>
-File: 3.jpg Graphic file (type jpg)
-
-<use 3.jpg>
-Package pdftex.def Info: 3.jpg used on input line 394.
-(pdftex.def)             Requested size: 241.84842pt x 136.0311pt.
- [50
-
- <./3.jpg>] <4.jpg, id=1644, 1541.76pt x 1156.32pt>
-File: 4.jpg Graphic file (type jpg)
- <use 4.jpg>
-Package pdftex.def Info: 4.jpg used on input line 407.
-(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
-
-Overfull \vbox (5.03885pt too high) detected at line 407
- []
-
-[51
-
- <./4.jpg>] [52
-
-] [53
-
-] [54
-
-]
-Package atenddvi Info: Last page = 55.
- [55
 
 ]
 \tf@nav=\write6
@@ -1238,38 +1303,41 @@ Package atenddvi Info: Last page = 55.
 \tf@snm=\write8
 \openout8 = `Seminario.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 469.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 541.
  (./Seminario.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 469.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 469.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
 Package rerunfilecheck Info: File `Seminario.out' has not changed.
-(rerunfilecheck)             Checksum: 8F3E91D5B24E88C40AE31FED5D895349;288.
+(rerunfilecheck)             Checksum: D08FACD6124FEB24A3857444BBA5E34B;726.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 469.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
  ) 
 Here is how much of TeX's memory you used:
- 18220 strings out of 493105
- 343416 string characters out of 6137072
- 446328 words of memory out of 5000000
- 21096 multiletter control sequences out of 15000+600000
- 10255 words of font info for 38 fonts, out of 8000000 for 9000
+ 19738 strings out of 493105
+ 374376 string characters out of 6137072
+ 472878 words of memory out of 5000000
+ 22613 multiletter control sequences out of 15000+600000
+ 11855 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,55p,389b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Seminario.pdf (55 pages, 7304535 bytes).
+ 56i,16n,64p,389b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Seminario.pdf (27 pages, 7321489 bytes).
 PDF statistics:
- 1849 PDF objects out of 2073 (max. 8388607)
- 1745 compressed objects within 18 object streams
- 117 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1213 PDF objects out of 1440 (max. 8388607)
+ 1137 compressed objects within 12 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
