@@ -47,7 +47,7 @@ src = dst1;
     //imshow( "New Sharped Image", imgResult );
     //src = imgResult; // copy back
     // Create binary image from source image
-    Mat bw;
+    Mat bw = src;
 //ler referência
     cvtColor(src, bw, CV_BGR2GRAY);
     threshold(bw, bw, 40, 255, CV_THRESH_BINARY | CV_THRESH_OTSU);
@@ -59,10 +59,10 @@ Mat ret = bw - LaplacianoBinario;
 ret.convertTo(ret, CV_8UC3);
 bw.convertTo(bw,CV_8UC3);
 LaplacianoBinario.convertTo(LaplacianoBinario, CV_8UC3);
-    imshow( "Laplace Filtered Image", LaplacianoBinario );
-	imshow("Binario - Lapaciano",ret);
-    imshow("Binary Image", bw);
-//src = ret;
+   // imshow( "Laplace Filtered Image", LaplacianoBinario );
+	//imshow("Binario - Lapaciano",ret);
+    //imshow("Binary Image", bw);
+src = bw;
 
 
     // Perform the distance transform algorithm
@@ -79,7 +79,7 @@ LaplacianoBinario.convertTo(LaplacianoBinario, CV_8UC3);
     // Dilate a bit the dist image
     Mat kernel1 = Mat::ones(3, 3, CV_8UC1);
 //um pouco de morfologia pra que??
-    dilate(dist, dist, kernel1);
+    //dilate(dist, dist, kernel1);
     imshow("Picos", dist);
     // Create the CV_8U version of the distance image
     // It is needed for findContours()
@@ -99,7 +99,7 @@ LaplacianoBinario.convertTo(LaplacianoBinario, CV_8UC3);
 
 
     // Perform the watershed algorithm
-//ret.convertTo(ret, CV_8UC1);
+//dist.convertTo(dist, CV_8UC3);
 	
 //Mat water = Mat::zeros(markers.size(), src.type());
 //printf("O Tipo de src é %c. \n", src.type());

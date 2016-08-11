@@ -6,9 +6,9 @@
 \beamer@subsectionintoc {1}{3}{Vis\~ao Computacional}{9}{0}{1}
 \beamer@sectionintoc {2}{Metodologia}{13}{0}{2}
 \beamer@subsectionintoc {2}{1}{Tratamento da Imagem}{15}{0}{2}
-\beamer@subsectionintoc {2}{2}{Segmenta\c c\~ao}{17}{0}{2}
-\beamer@subsectionintoc {2}{3}{Classifica\c c\~ao}{18}{0}{2}
-\beamer@subsectionintoc {2}{4}{Biblioteca Utilizada}{19}{0}{2}
-\beamer@sectionintoc {3}{Resultados}{21}{0}{3}
-\beamer@sectionintoc {4}{Conclus\~ao}{26}{0}{4}
-\beamer@sectionintoc {5}{Pr\'oximas Etapas}{27}{0}{5}
+\beamer@subsectionintoc {2}{2}{Segmenta\c c\~ao}{16}{0}{2}
+\beamer@subsectionintoc {2}{3}{Classifica\c c\~ao}{17}{0}{2}
+\beamer@subsectionintoc {2}{4}{Biblioteca Utilizada}{18}{0}{2}
+\beamer@sectionintoc {3}{Resultados}{20}{0}{3}
+\beamer@sectionintoc {4}{Conclus\~ao}{31}{0}{4}
+\beamer@sectionintoc {5}{Pr\'oximas Etapas}{32}{0}{5}

@@ -196,18 +196,18 @@
 			\item Algumas Operações: Limiarização, Binarização, Filtragem, Transformação %====Colocar Algumas operações
 				
 		\end{itemize}
-		\tiny 
-	\begin{figure}[h!]
-    	\centering
-    	\subfigure {\includegraphics[scale = 0.2]{binaria.png}}
-    	\hspace{1cm}
-        \subfigure {\includegraphics[scale = 0.2]{dilatada.png}}
-		\hspace{1cm}       
-        \subfigure {\includegraphics[scale = 0.2]{distancial.png}}
-		\hspace{1cm}        
-        \subfigure {\includegraphics[scale = 0.2]{connectedcomponentes.png}}
-        \caption{(a)- (b)- (c)- (d)- }
-	\end{figure}
+%		\tiny 
+%	\begin{figure}[h!]
+%    	\centering
+%    	\subfigure {\includegraphics[scale = 0.2]{binaria.png}}
+%    	\hspace{1cm}
+%        \subfigure {\includegraphics[scale = 0.2]{dilatada.png}}
+%		\hspace{1cm}       
+%        \subfigure {\includegraphics[scale = 0.2]{distancial.png}}
+%		\hspace{1cm}        
+%        \subfigure {\includegraphics[scale = 0.2]{connectedcomponentes.png}}
+%        \caption{(a)- (b)- (c)- (d)- }
+%	\end{figure}
 	
 	\end{frame}
 \setbeamercovered{invisible}
@@ -227,10 +227,10 @@
 			\item A entrada é uma imagem no entanto a saída é uma interpretação dessa imagem.
 			 
 			\vspace{0.5cm} 
-			\item Integrar com aprendizado de maquina.
+			\item Integrar com aprendizado de máquina.
 			
 			\vspace{0.5cm} 
-			\item Algumas operações: Classificação, Reconheciemnto de padrões.
+			\item Algumas operações: Classificação, Reconhecimento de padrões.
 			
 		\end{itemize}
 		
@@ -246,7 +246,7 @@
 	\end{itemize}
 \begin{figure}[h]
 	\includegraphics[width=5.5cm]{haarClassifier}
-	\caption{Características Haar. (VIOLA and JONES - 2001)}
+	\caption{Características Haar. (VIOLA e JONES - 2001)}
 \end{figure}
 	
 \end{frame}
@@ -277,7 +277,7 @@
 	\end{itemize}
 	\begin{figure}
 		\includegraphics[width=5.5cm]{graficoKnn.jpg}
-		\caption{Classificacao KNN. (RONG, Jing)}
+		\caption{Classificação KNN. (RONG, Jing)}
 	\end{figure}
 	
 \end{frame}
@@ -289,7 +289,7 @@
 \begin{frame}\frametitle{Etapas do Projeto}
 	%Comentar as etapas do projeto
 	\begin{figure}[h]
-		\includegraphics[width=11.5cm]{cronog2.png} 
+		\includegraphics[scale = 0.39]{cronog2.png} 
 	\end{figure}
 
 \end{frame}
@@ -323,33 +323,16 @@
 	\begin{itemize}
 	\item Limiarização usada Threshold de Otsu: Maximiza a variação intraclasse.
 
-	\item Laplaciano: Derivada segunda .
+	\item Laplaciano: Derivada segunda.
 		
-	\item Transformada Distância.
-	\begin{equation}
-	colocar a equacao
-	\end{equation}
-	\end{itemize}	
+	\item Transformada Distância Euclidiana: Distância entre o pixel e o primeiro ponto preto $dist(p,q) = \sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2 + ... + (p_n - q_n)^2}$.
 	
-\end{frame}
-\setbeamercovered{invisible}
-%%%=====================================Slide 02================================================================
-\setbeamercovered{transparent}
-\begin{frame}\frametitle{Tratamento da Imagem}
-	% Falar sobre o que podemos fazer para melhorar a imagem 
-	\begin{itemize}
-	\item Limiarização usada Threshold de Otsu.
-	\begin{equation}
-	colocar a equacao
-	\end{equation}
-	\item Laplaciano.
-	\begin{equation}
-	colocar a equacao
-	\end{equation}	
-	\item Transformada Distância.
-	\begin{equation}
-	colocar a equacao
-	\end{equation}
+	\item Limiarização - Coeficiente escolhido.
+	
+	\item Dilatação
+	
+	\item Cria o Marcador para a segmentação de Watershed.
+	
 	\end{itemize}	
 	
 \end{frame}
@@ -358,15 +341,16 @@
 \subsection{Segmentação}
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Segmentação}
-	% Parte para o attyla explicar a teorica do que fez
 	\begin{itemize}
 	\item O método escolhido para Segmentação foi o algoritmo Watershed orientado por marcadores.
-	\item Watershed: 
-	 \begin{equation}
-	colocar a equacao
-	\end{equation}
-	\item 
-	\end{itemize}
+	\item Watershed: Segmenta dividindo as imagens entre os Marcadores 
+	
+\begin{figure}
+		\includegraphics[scale= 0.2]{watershed}
+		\caption{Watershed}
+	\end{figure}
+\end{itemize}
+	
 \end{frame}
 \setbeamercovered{invisible}
 %%%=====================================Slide 02================================================================
@@ -472,7 +456,7 @@
 		\end{itemize}
 		%Comentar as etapas do projeto
 		\begin{figure}
-			\includegraphics[width=8.5cm]{4.jpg} 
+			\includegraphics[width=8.5cm]{seg/4.jpg} 
 		\end{figure}
 		
 	\end{frame}
@@ -481,11 +465,91 @@
 %%=====================================Slide 02=================================================================
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Resultados}
-	
 		\begin{itemize}
-			\item  O que conseguir ate o dia da apresentacao em termos de Classificacao
+			\item Embaçamento pra reduzir detalhes
+			\begin{figure}
+				\includegraphics[width=8.5cm]{seg/Gaussian.png} 
+			\end{figure}
 		\end{itemize}
-		
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+		\begin{itemize}
+			\item Binarização de Otsu
+			\begin{figure}
+				\includegraphics[width=8.5cm]{seg/4binaria.png} 
+			\end{figure}
+		\end{itemize}
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+		\begin{itemize}
+			\item Laplaciano
+			\begin{figure}
+				\includegraphics[width=8.5cm]{seg/bordas.png} 
+			\end{figure}
+		\end{itemize}
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+		\begin{itemize}
+			\item Transformada Distância
+			\begin{figure}
+				\includegraphics[width=8.5cm]{seg/Distance.png} 
+			\end{figure}
+		\end{itemize}
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+		\begin{itemize}
+			\item Picos
+			\begin{figure}
+				\includegraphics[width=8.5cm]{seg/Marcadores.png}
+			\end{figure}
+		\end{itemize}
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+		\begin{itemize}
+			\item Área Externa
+			\begin{figure}
+				\includegraphics[width=8.5cm]{seg/Foreground.png} 
+			\end{figure}
+		\end{itemize}
+	
+\end{frame}
+
+\setbeamercovered{invisible}
+
+%%=====================================Slide 02=================================================================
+\setbeamercovered{transparent}
+\begin{frame}\frametitle{Resultados}
+		\begin{itemize}
+			\item Segmentação de Watershed
+			\begin{figure}
+				\includegraphics[width=8.5cm]{seg/Segmentacao.png} 
+			\end{figure}
+		\end{itemize}
 	
 \end{frame}
 
@@ -494,9 +558,7 @@
 \setbeamercovered{transparent}
 \begin{frame}\frametitle{Resultados}
 
-			\begin{itemize}
-				\item  O que conseguir ate o dia da apresentacao em termos de Contagem
-			\end{itemize}
+
 	
 \end{frame}
 

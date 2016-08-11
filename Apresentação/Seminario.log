@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.7.12)  10 AUG 2016 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.7.12)  11 AUG 2016 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,78 +1155,52 @@ Overfull \vbox (12.86572pt too high) detected at line 182
 
 [7
 
- <./CiclodeVida.jpg>] <binaria.png, id=377, 176.66pt x 147.55125pt>
-File: binaria.png Graphic file (type png)
+ <./CiclodeVida.jpg>] [8
 
-<use binaria.png>
-Package pdftex.def Info: binaria.png used on input line 212.
-(pdftex.def)             Requested size: 35.33136pt x 29.50972pt.
- <dilatada.png, id=379, 189.70876pt x 154.5775pt>
-File: dilatada.png Graphic file (type png)
-
-<use dilatada.png>
-Package pdftex.def Info: dilatada.png used on input line 212.
-(pdftex.def)             Requested size: 37.94107pt x 30.91495pt.
- <distancial.png, id=380, 190.7125pt x 170.6375pt>
-File: distancial.png Graphic file (type png)
-
-<use distancial.png>
-Package pdftex.def Info: distancial.png used on input line 212.
-(pdftex.def)             Requested size: 38.14182pt x 34.12689pt.
-
-<connectedcomponentes.png, id=381, 177.66376pt x 146.5475pt>
-File: connectedcomponentes.png Graphic file (type png)
-
-<use connectedcomponentes.png>
-Package pdftex.def Info: connectedcomponentes.png used on input line 212.
-(pdftex.def)             Requested size: 35.53212pt x 29.30898pt.
- [8
-
- <./binaria.png> <./dilatada.png> <./distancial.png> <./connectedcomponentes.pn
-g>] [9
+] [9
 
 ]
-<haarClassifier.jpg, id=463, 268.00125pt x 162.6075pt>
+<haarClassifier.jpg, id=454, 268.00125pt x 162.6075pt>
 File: haarClassifier.jpg Graphic file (type jpg)
 
 <use haarClassifier.jpg>
-Package pdftex.def Info: haarClassifier.jpg used on input line 249.
+Package pdftex.def Info: haarClassifier.jpg used on input line 252.
 (pdftex.def)             Requested size: 156.49014pt x 94.94759pt.
  [10
 
  <./haarClassifier.jpg>]
-<Cascata.png, id=504, 469.755pt x 159.59625pt>
+<Cascata.png, id=495, 469.755pt x 159.59625pt>
 File: Cascata.png Graphic file (type png)
  <use Cascata.png>
-Package pdftex.def Info: Cascata.png used on input line 265.
+Package pdftex.def Info: Cascata.png used on input line 268.
 (pdftex.def)             Requested size: 298.75394pt x 101.49834pt.
 
-Overfull \hbox (8.0113pt too wide) in paragraph at lines 265--265
+Overfull \hbox (8.0113pt too wide) in paragraph at lines 268--268
  [] 
  []
 
 [11
 
- <./Cascata.png>] <graficoKnn.jpg, id=543, 144.54pt x 152.4897pt>
+ <./Cascata.png>] <graficoKnn.jpg, id=534, 144.54pt x 152.4897pt>
 File: graficoKnn.jpg Graphic file (type jpg)
 
 <use graficoKnn.jpg>
-Package pdftex.def Info: graficoKnn.jpg used on input line 280.
+Package pdftex.def Info: graficoKnn.jpg used on input line 283.
 (pdftex.def)             Requested size: 156.49014pt x 165.10524pt.
 
-Overfull \vbox (17.49397pt too high) detected at line 280
+Overfull \vbox (17.49397pt too high) detected at line 283
  []
 
 [12
 
- <./graficoKnn.jpg>] <cronog2.png, id=583, 752.8125pt x 283.81032pt>
+ <./graficoKnn.jpg>] <cronog2.png, id=574, 752.8125pt x 283.81032pt>
 File: cronog2.png Graphic file (type png)
 
 <use cronog2.png>
-Package pdftex.def Info: cronog2.png used on input line 292.
-(pdftex.def)             Requested size: 327.20668pt x 123.3612pt.
+Package pdftex.def Info: cronog2.png used on input line 295.
+(pdftex.def)             Requested size: 293.59569pt x 110.68556pt.
 
-Overfull \hbox (36.46405pt too wide) in paragraph at lines 292--292
+Overfull \hbox (2.85306pt too wide) in paragraph at lines 295--295
  [] 
  []
 
@@ -1235,63 +1209,128 @@ Overfull \hbox (36.46405pt too wide) in paragraph at lines 292--292
  <./cronog2.png>] [14
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 335.
+LaTeX Font Info:    Try loading font information for U+msa on input line 338.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 335.
+LaTeX Font Info:    Try loading font information for U+msb on input line 338.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [15
 
-] [16
-
-] [17
-
 ]
-[18
+<watershed.png, id=700, 673.51625pt x 326.21875pt>
+File: watershed.png Graphic file (type png)
+ <use watershed.png>
+Package pdftex.def Info: watershed.png used on input line 354.
+(pdftex.def)             Requested size: 134.70085pt x 65.24258pt.
+ [16
+
+ <./watershed.png (PNG copy)>] [17
+
+] [18
 
 ] [19
 
-] [20
-
-] <2.jpg, id=898, 4143.48pt x 2330.7075pt>
+]
+<2.jpg, id=855, 4143.48pt x 2330.7075pt>
 File: 2.jpg Graphic file (type jpg)
  <use 2.jpg>
-Package pdftex.def Info: 2.jpg used on input line 454.
+Package pdftex.def Info: 2.jpg used on input line 437.
+(pdftex.def)             Requested size: 241.84842pt x 136.0311pt.
+ [20
+
+ <./2.jpg>]
+<3.jpg, id=897, 4143.48pt x 2330.7075pt>
+File: 3.jpg Graphic file (type jpg)
+ <use 3.jpg>
+Package pdftex.def Info: 3.jpg used on input line 449.
 (pdftex.def)             Requested size: 241.84842pt x 136.0311pt.
  [21
 
- <./2.jpg>] <3.jpg, id=939, 4143.48pt x 2330.7075pt>
-File: 3.jpg Graphic file (type jpg)
- <use 3.jpg>
-Package pdftex.def Info: 3.jpg used on input line 466.
-(pdftex.def)             Requested size: 241.84842pt x 136.0311pt.
- [22
-
  <./3.jpg>]
-<4.jpg, id=979, 1541.76pt x 1156.32pt>
-File: 4.jpg Graphic file (type jpg)
- <use 4.jpg>
-Package pdftex.def Info: 4.jpg used on input line 479.
+<seg/4.jpg, id=937, 1541.76pt x 1156.32pt>
+File: seg/4.jpg Graphic file (type jpg)
+ <use seg/4.jpg>
+Package pdftex.def Info: seg/4.jpg used on input line 462.
 (pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
 
-Overfull \vbox (3.66904pt too high) detected at line 479
+Overfull \vbox (3.66904pt too high) detected at line 462
  []
 
-[23
+[22
 
- <./4.jpg>] [24
+ <./seg/4.jpg>] <seg/Gaussian.png, id=977, 1541.76pt x 1156.32pt>
+File: seg/Gaussian.png Graphic file (type png)
 
-] [25
+<use seg/Gaussian.png>
+Package pdftex.def Info: seg/Gaussian.png used on input line 475.
+(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
+ [23
 
-] [26
+ <./seg/Gaussian.png (PNG copy)>]
+<seg/4binaria.png, id=1018, 1541.76pt x 1156.32pt>
+File: seg/4binaria.png Graphic file (type png)
+ <use seg/4binaria.png>
+Package pdftex.def Info: seg/4binaria.png used on input line 488.
+(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
+
+[24
+
+ <./seg/4binaria.png (PNG copy)>]
+<seg/bordas.png, id=1058, 1541.76pt x 1156.32pt>
+File: seg/bordas.png Graphic file (type png)
+ <use seg/bordas.png>
+Package pdftex.def Info: seg/bordas.png used on input line 501.
+(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
+ [25
+
+ <./seg/bordas.png (PNG copy)>] <seg/Distance.png, id=1100, 1541.76pt x 1156.32
+pt>
+File: seg/Distance.png Graphic file (type png)
+
+<use seg/Distance.png>
+Package pdftex.def Info: seg/Distance.png used on input line 514.
+(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
+ [26
+
+ <./seg/Distance.png (PNG copy)>]
+<seg/Marcadores.png, id=1140, 1541.76pt x 1156.32pt>
+File: seg/Marcadores.png Graphic file (type png)
+ <use seg/Marcadores.png>
+Package pdftex.def Info: seg/Marcadores.png used on input line 527.
+(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
+
+[27
+
+ <./seg/Marcadores.png (PNG copy)>]
+<seg/Foreground.png, id=1180, 1541.76pt x 1156.32pt>
+File: seg/Foreground.png Graphic file (type png)
+ <use seg/Foreground.png>
+Package pdftex.def Info: seg/Foreground.png used on input line 540.
+(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
+
+[28
+
+ <./seg/Foreground.png (PNG copy)>]
+<seg/Segmentacao.png, id=1221, 1541.76pt x 1156.32pt>
+File: seg/Segmentacao.png Graphic file (type png)
+
+<use seg/Segmentacao.png>
+Package pdftex.def Info: seg/Segmentacao.png used on input line 554.
+(pdftex.def)             Requested size: 241.84842pt x 181.38031pt.
+ [29
+
+ <./seg/Segmentacao.png (PNG copy)>] [30
+
+] [31
 
 ]
-Package atenddvi Info: Last page = 27.
- [27
+Package atenddvi Info: Last page = 32.
+
+[32
 
 ]
 \tf@nav=\write6
@@ -1303,13 +1342,13 @@ Package atenddvi Info: Last page = 27.
 \tf@snm=\write8
 \openout8 = `Seminario.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 541.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 602.
  (./Seminario.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
 Package rerunfilecheck Info: File `Seminario.out' has not changed.
-(rerunfilecheck)             Checksum: D08FACD6124FEB24A3857444BBA5E34B;726.
+(rerunfilecheck)             Checksum: 25CCA8CA7DE2A6E3EE71ED820A5CF765;726.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1318,26 +1357,30 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
  ) 
 Here is how much of TeX's memory you used:
- 19738 strings out of 493105
- 374376 string characters out of 6137072
+ 19774 strings out of 493105
+ 374809 string characters out of 6137072
  472878 words of memory out of 5000000
- 22613 multiletter control sequences out of 15000+600000
+ 22634 multiletter control sequences out of 15000+600000
  11855 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,64p,389b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Seminario.pdf (27 pages, 7321489 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb>
+Output written on Seminario.pdf (32 pages, 8636206 bytes).
 PDF statistics:
- 1213 PDF objects out of 1440 (max. 8388607)
- 1137 compressed objects within 12 object streams
- 67 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1429 PDF objects out of 1440 (max. 8388607)
+ 1342 compressed objects within 14 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
