@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<bmin>150</bmin>
+<bmax>198</bmax>
+<gmin>158</gmin>
+<gmax>214</gmax>
+<rmin>199</rmin>
+<rmax>239</rmax>
+<wwebcamX>350</wwebcamX>
+<wwebcamY>10</wwebcamY>
+<wthresholdX>350</wthresholdX>
+<wthresholdY>280</wthresholdY>
+<wcontrolX>10</wcontrolX>
+<wcontrolY>10</wcontrolY>
+<stdMult>4</stdMult>
+<useMinMax>0</useMinMax>
+</opencv_storage>

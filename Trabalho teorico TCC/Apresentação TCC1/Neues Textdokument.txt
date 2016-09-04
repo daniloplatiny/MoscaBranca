@@ -1,0 +1,25 @@
+Topicos e subtopicos
+
+
+Introducao
+	Inicial
+	Objetivos
+	Preve Fundamentacao Teorica
+		A mosca Branca
+		Processamento de Imagens
+		
+Metodologia 
+	Etapas
+	C++ e GUI
+	A biblioteca OpenCV
+	As tecnicas de machine vision que serao utilizadas
+	
+Resultados Parciais
+	Imagens Coletadas 
+	Contagem de Segmentos
+	
+Conculsao Parcias
+
+Proximas Etapas
+	Proxima etapa
+	Calendario

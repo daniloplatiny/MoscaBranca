@@ -1,8 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_CXX_FLAGS "-g -Wall ")
-PROJECT(skinSegmentation)
-INCLUDE_DIRECTORIES(/usr/include/qt4 /usr/local/include/opencv2 /usr/local/include/opencv)
-LINK_DIRECTORIES(/usr/local/lib)
-ADD_EXECUTABLE(bin/skinSegmentation src/skinSegmentation)
-TARGET_LINK_LIBRARIES(bin/skinSegmentation opencv_core opencv_imgproc opencv_highgui opencv_ml opencv_video opencv_features2d opencv_calib3d opencv_objdetect opencv_contrib opencv_legacy opencv_flann opencv_nonfree)
